@@ -1,5 +1,6 @@
 import { useState,useEffect } from 'react'
 import Task from './Task'
+import Counter from './Counter'
 import './App.css'
 
 
@@ -139,8 +140,10 @@ function App() {
       </div>
 
 
-
+     
       </div>
+      {!flag && <h1 className='my-20'>Play around with this counter made with useReducer while you have no tasks :-)</h1>}
+      {!flag && <Counter/>}
     </>
   )
 }
