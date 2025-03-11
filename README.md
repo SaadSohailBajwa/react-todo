@@ -36,11 +36,11 @@ A simple and responsive To-Do application built with React and Tailwind CSS, pow
    npm run build
    ```
 
-```
-
 ## Demo
 
 ![React To-Do App Demo](public/Screencast-from-11-03-25-15_13_01.gif)
+
+
 
 ## Contact
 
